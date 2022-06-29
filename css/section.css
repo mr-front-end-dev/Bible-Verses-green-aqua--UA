@@ -1,0 +1,82 @@
+.section {
+  padding: 15px;
+}
+
+.section__h1 {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.section__paragraph {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.section--bold{
+  font-weight: bold;
+}
+
+.section__button--underscore {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(60, 100%, 40%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.section__button {
+  background-color: hsl(60, 100%, 40%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.section__button:active {
+  background-color: hsl(60, 100%, 45%);
+}
+
+.section__button--link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.section--link {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.section__span--color--white {
+  color: hsl(0, 0%, 100%);
+}
+
+.section--border--purple {
+  line-height: 2.0;
+  border: 2px solid hsl(300, 100%, 35%);
+  padding: 5px;
+}
+
+.section--border--purple:hover {
+  border: 1px double hsl(0, 0%, 100%);
+  background-color: hsl(300, 100%, 35%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.section--border--aqua {
+  line-height: 2.0;
+  border: 2px solid hsl(180, 100%, 50%);
+  padding: 5px;
+}
+
+.section--border--aqua:hover {
+  border: 1px double hsl(0, 0%, 100%);
+  background-color: hsl(180, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: 1s;
+}
